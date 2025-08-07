@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return clean.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, "$1.$2.$3-$4");
   }
   document.querySelectorAll(".bottom-nav button")[1]?.addEventListener("click", () => {
-  window.location.href = "agendar.html";
+  window.location.href = "visitas.html";
 });
   const historicoBtn = document.querySelector(".history-btn");
   if (historicoBtn) {
@@ -37,4 +37,5 @@ document.addEventListener("DOMContentLoaded", () => {
       window.location.href = "historico.html";
     });
   }
+
 });
